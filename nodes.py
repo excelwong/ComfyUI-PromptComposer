@@ -95,7 +95,7 @@ class PromptComposerNode:
             
             value = self._get_group_value(key, values[key], prompt_group)
             if value:
-                if key == "上装" and values["服装"] > 0:  # 服装不为空（0），则忽略上装
+                if (key == "上装" or key == "下装" ) and values["服装"] > 0:  # 服装不为空（>0），则忽略上装和下装
                     continue
 
                 if (key == "服装" or  key == "上装") and values[key] >1:#服装或者上装不为空（0）不为裸（1），就加上颜色和材质
