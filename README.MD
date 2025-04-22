@@ -11,11 +11,13 @@
 - 智能提示词组装逻辑
 - 支持套装模式快速切换完整提示词
 - 支持服装颜色和材质的智能组合
+![alt text](image1.png)
 
 ## 安装方法
 
-1. 将本项目文件夹复制到 ComfyUI 的 custom_nodes 目录下
-2. 重启 ComfyUI
+1. 进入 ComfyUI 的 custom_nodes 目录
+2. git clone https://github.com/excelwong/ComfyUI-PromptComposer
+3. 重启 ComfyUI
 
 ## 配置文件
 
