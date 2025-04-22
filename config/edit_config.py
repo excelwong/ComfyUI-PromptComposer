@@ -113,7 +113,7 @@ class CompactConfigEditor:
         total_width = label_width + combobox_width + scrollbar_width + 40
 
         # 设置窗口尺寸
-        self.master.geometry(f"{total_width}x750")  # 固定宽度和高度
+        self.master.geometry(f"{total_width}x786")  # 固定宽度和高度
         self.master.resizable(False, False)  # 禁止垂直调整，禁止水平调整
 
     def reset_config(self):

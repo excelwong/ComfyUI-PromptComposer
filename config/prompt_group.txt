@@ -228,7 +228,7 @@
           "",
           "black_lips",
           "red_lips",
-          "rose-red_lips"
+          "rose-red_lips",
           "pink_lips",
           "purple_lips"
      ],
