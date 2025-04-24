@@ -1,0 +1,15 @@
+[project]
+name = "promptcomposer"
+description = "A ComfyUI custom node plugin for assembling prompts. It allows you to generate positive and negative prompts by selecting different options."
+version = "1.0.0"
+license = {file = "LICENSE"}
+dependencies = []
+
+[project.urls]
+Repository = "https://github.com/excelwong/ComfyUI-PromptComposer"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = ""
+DisplayName = "ComfyUI-PromptComposer"
+Icon = ""
